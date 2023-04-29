@@ -28,11 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '3.144.139.201']
 
-CORS_ALLOWED_ORIGINS = [
-    "*",
-    "http://3.144.139.201:8000",
-]
-
+CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
