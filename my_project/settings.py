@@ -29,7 +29,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['localhost', '3.144.139.201']
 
 CORS_ALLOWED_ORIGINS = [
-    "http://3.144.139.201",
+    "*",
+    "http://3.144.139.201:8000",
 ]
 
 # Application definition
